@@ -19,12 +19,12 @@ extern volatile float rs485;
 
 volatile uint8_t update = 0;
 
-volatile  int16_t max_well_level = 20;
+volatile  int16_t max_well_level = 170;
 volatile  int16_t min_well_level = 0;
-volatile  int16_t max_level = 18;
-volatile  int16_t min_level = 10;
+volatile  int16_t max_level = 160;
+volatile  int16_t min_level = 50;
 
-volatile float diameter = 28;
+volatile float diameter = 184;
 volatile uint16_t X = 200;
 volatile uint16_t Y = 200;
 
@@ -33,7 +33,7 @@ volatile uint8_t brightness = 10; //0-255
 const char *form = "cy";
 
 void ui(void){
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 	 switch(menu){
 		case 1: //tutorial
 			switch(page){
@@ -103,7 +103,7 @@ void ui(void){
 				break;
 			}
 		break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 		case 2: //menu selecter
 			switch(page){
 				case 1:
@@ -158,7 +158,7 @@ void ui(void){
 				break;
 			}
 		break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 		case 3: //settings selector
 			switch(page){
 
@@ -266,7 +266,7 @@ void ui(void){
 				break;
 			}
 		break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 		case 4: //displays
 			switch(page){
 
@@ -335,7 +335,7 @@ void ui(void){
 				break;
 			}
 		break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 		case 5: //well level
 			switch(page){
 
@@ -423,7 +423,7 @@ void ui(void){
 				break;
 		}
 		break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 		case 6: //limit level
 			switch(page){
 
@@ -463,11 +463,21 @@ void ui(void){
 					 write_to_screen(" cm             ");
 					 if(select >= 2){
 						 max_level++;
+
+						 if(max_level > max_well_level - 5){
+							 max_level = max_well_level - 5;
+						 }
+
 						 select = 1;
 						 update = 1;
 					 }
 					 if(conf == 1){
 						 max_level--;
+
+						 if(min_level <= 5){
+							 min_level = 5;
+						 }
+
 						 conf = 0;
 						 update = 1;
 					 }
@@ -511,7 +521,7 @@ void ui(void){
 				break;
 		}
 		break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 		case 7: //form selector
 			switch(page){
 
@@ -613,7 +623,7 @@ void ui(void){
 				break;
 			}
 			break;
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 			case 8: //dimensions selector
 				switch(page){
 
