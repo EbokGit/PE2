@@ -131,6 +131,7 @@ void ui(void){
 								 select = 1;
 								 page = 2;
 								 update = 1;
+								 send_to_screen(0b00001100, 'b', 'c');
 							 }
 						break;
 
@@ -190,6 +191,7 @@ void ui(void){
 								 select = 1;
 								 page = 2;
 								 update = 1;
+								 send_to_screen(0b00001100, 'b', 'c');
 							 }
 						break;
 
@@ -201,6 +203,7 @@ void ui(void){
 								 select = 1;
 								 page = 2;
 								 update = 1;
+								 send_to_screen(0b00001100, 'b', 'c');
 						 }
 							 break;
 
@@ -281,6 +284,7 @@ void ui(void){
 						 select = 1;
 						 page = 1;
 						 update = 1;
+						 send_to_screen(0b00001111, 'b', 'c');
 					 }
 				break;
 
@@ -326,6 +330,7 @@ void ui(void){
 						 select = 1;
 						 page = 1;
 						 update = 1;
+						 send_to_screen(0b00001111, 'b', 'c');
 					 }
 				break;
 
@@ -350,6 +355,7 @@ void ui(void){
 						 select = 1;
 						 page = 2;
 						 update = 1;
+						 send_to_screen(0b00001111, 'b', 'c');
 					 }
 				break;
 
@@ -414,6 +420,7 @@ void ui(void){
 						 select = 1;
 						 page = 2;
 						 update = 1;
+						 send_to_screen(0b00001111, 'b', 'c');
 					 }
 				break;
 
@@ -438,6 +445,7 @@ void ui(void){
 						 select = 1;
 						 page = 2;
 						 update = 1;
+						 send_to_screen(0b00001111, 'b', 'c');
 					 }
 				break;
 
@@ -464,7 +472,7 @@ void ui(void){
 					 if(select >= 2){
 						 max_level++;
 
-						 if(max_level > max_well_level - 5){
+						 if(max_level >= max_well_level - 5){
 							 max_level = max_well_level - 5;
 						 }
 
@@ -474,8 +482,8 @@ void ui(void){
 					 if(conf == 1){
 						 max_level--;
 
-						 if(min_level <= 5){
-							 min_level = 5;
+						 if(max_level <= min_level + 10){
+							 max_level = min_level + 10;
 						 }
 
 						 conf = 0;
@@ -491,6 +499,11 @@ void ui(void){
 					 write_to_screen(" cm             ");
 					 if(select >= 2){
 						 min_level++;
+
+						 if(min_level >= max_level - 10){
+							 min_level = max_level - 10;
+						 }
+
 						 select = 1;
 						 update = 1;
 					 }
@@ -498,6 +511,10 @@ void ui(void){
 						 min_level--;
 						 conf = 0;
 						 update = 1;
+
+						 if(min_level <= 5){
+							 min_level = 5;
+						 }
 					 }
 				break;
 
@@ -512,6 +529,7 @@ void ui(void){
 						 select = 1;
 						 page = 2;
 						 update = 1;
+						 send_to_screen(0b00001111, 'b', 'c');
 					 }
 				break;
 

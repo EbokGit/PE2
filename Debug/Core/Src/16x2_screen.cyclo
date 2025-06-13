@@ -1,0 +1,8 @@
+../Core/Src/16x2_screen.c:18:6:screen_render	5
+../Core/Src/16x2_screen.c:50:7:send_to_screen	3
+../Core/Src/16x2_screen.c:93:7:screen_start	1
+../Core/Src/16x2_screen.c:100:7:init_screen	1
+../Core/Src/16x2_screen.c:111:7:write_to_screen	2
+../Core/Src/16x2_screen.c:120:7:digit_to_screen	4
+../Core/Src/16x2_screen.c:134:7:float_to_screen	4
+../Core/Src/16x2_screen.c:148:7:cursor_pos	2
