@@ -48,6 +48,8 @@ The primary focus of this README is to explain the codebase and provide guidance
 
 Below is a high-level block diagram illustrating the connections and interactions between the main components of the AquaLevel system.
 
+![Block Diagram of My Project](Extra's/blockdiagram.drawio.png "Main System Block Diagram")
+
 ## Software Architecture
 
 The software is built using the STM32CubeIDE ecosystem, leveraging the Hardware Abstraction Layer (HAL) provided by STMicroelectronics. The core logic is implemented in C. Key aspects of the architecture include:
