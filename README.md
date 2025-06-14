@@ -37,7 +37,7 @@ The primary focus of this README is to explain the codebase and provide guidance
 ## Hardware Overview
 
 * **Microcontroller:** STM32F301C8T6TR 
-* **Power Supply Units (PSU):** 24V 1A [cite: 10], 5V 10A [cite: 11], 3V3 
+* **Power Supply Units (PSU):** 24V 1A, 5V 10A, 3V3 
 * **Water Level Sensor:** Differential pressure meter with RS485 output 
 * **RS485 Transceiver:** MAX3485 
 * **User Input:** 4 Push Buttons 
@@ -51,7 +51,7 @@ The primary focus of this README is to explain the codebase and provide guidance
 
 The software is built using the STM32CubeIDE ecosystem, leveraging the Hardware Abstraction Layer (HAL) provided by STMicroelectronics. The core logic is implemented in C. Key aspects of the architecture include:
 
-* **Interrupt-driven Communication:** UART for RS485 [cite: 115], and DMA for WS2812B control.
+* **Interrupt-driven Communication:** UART for RS485, and DMA for WS2812B control.
 * **Timer-based Events:** Timers are used for PWM generation (WS2812B).
 * **Modular Design:** Functions are separated logically for different peripherals (LEDs, RS485, Buttons, Screen, etc.). 
 
