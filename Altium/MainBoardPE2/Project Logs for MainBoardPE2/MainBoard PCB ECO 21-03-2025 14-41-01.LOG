@@ -1,0 +1,25 @@
+Added Component: Designator=H1(4pin)
+Add Component: Footprint Not Found potentiometer
+Added Pin To Net: NetName=NetH1_1 Pin=H1-1
+Added Pin To Net: NetName=NetH1_2 Pin=H1-2
+Added Pin To Net: NetName=GND Pin=H1-3
+Added Pin To Net: NetName=NetH1_4 Pin=H1-4
+Add Pin To Net: Unknown Pin: Pin R1-10
+Add Pin To Net: Unknown Pin: Pin R1-11
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R2-3
+Add Pin To Net: Unknown Pin: Pin R3-10
+Add Pin To Net: Unknown Pin: Pin R3-11
+Add Pin To Net: Unknown Pin: Pin R4-10
+Add Pin To Net: Unknown Pin: Pin R4-11
+Add Pin To Net: Unknown Pin: Pin R5-10
+Add Pin To Net: Unknown Pin: Pin R5-11
+Add Pin To Net: Unknown Pin: Pin R6-10
+Add Pin To Net: Unknown Pin: Pin R6-11
+Add Pin To Net: Unknown Pin: Pin R7-10
+Add Pin To Net: Unknown Pin: Pin R7-11
+Add Pin To Net: Unknown Pin: Pin R8-10
+Add Pin To Net: Unknown Pin: Pin R8-11
+Added Member To Class: ClassName=U_ST-Link_V2 Member=Component H1 ST-Link_V2
+Add Class Member: Failed to add class member : Component R2 10k

@@ -1,0 +1,53 @@
+Add Component: Footprint Not Found ST-LinkV2
+Added Component: Designator=IC1(STM32)
+Add Component: Footprint Not Found potentiometer
+Add Pin To Net: Unknown Pin: Pin H1-1
+Add Pin To Net: Unknown Pin: Pin H1-2
+Add Pin To Net: Unknown Pin: Pin H1-3
+Add Pin To Net: Unknown Pin: Pin H1-4
+Added Pin To Net: NetName=+3v3 Pin=IC1-1
+Added Pin To Net: NetName=NetH1_1 Pin=IC1-7
+Added Pin To Net: NetName=GND Pin=IC1-8
+Added Pin To Net: NetName=+3v3 Pin=IC1-9
+Added Pin To Net: NetName=NetIC1_11 Pin=IC1-11
+Added Pin To Net: NetName=NetIC1_12 Pin=IC1-12
+Added Pin To Net: NetName=NetIC1_13 Pin=IC1-13
+Added Pin To Net: NetName=NetIC1_14 Pin=IC1-14
+Added Pin To Net: NetName=NetIC1_15 Pin=IC1-15
+Added Pin To Net: NetName=NetIC1_16 Pin=IC1-16
+Added Pin To Net: NetName=GND Pin=IC1-23
+Added Pin To Net: NetName=+3v3 Pin=IC1-24
+Added Pin To Net: NetName=NetIC1_31 Pin=IC1-31
+Added Pin To Net: NetName=NetIC1_32 Pin=IC1-32
+Added Pin To Net: NetName=NetIC1_33 Pin=IC1-33
+Added Pin To Net: NetName=NetH1_2 Pin=IC1-34
+Added Pin To Net: NetName=GND Pin=IC1-35
+Added Pin To Net: NetName=+3v3 Pin=IC1-36
+Added Pin To Net: NetName=NetH1_4 Pin=IC1-37
+Added Pin To Net: NetName=NetIC1_40 Pin=IC1-40
+Added Pin To Net: NetName=NetIC1_41 Pin=IC1-41
+Added Pin To Net: NetName=NetIC1_42 Pin=IC1-42
+Added Pin To Net: NetName=NetIC1_43 Pin=IC1-43
+Added Pin To Net: NetName=NetIC1_44 Pin=IC1-44
+Added Pin To Net: NetName=GND Pin=IC1-47
+Added Pin To Net: NetName=+3v3 Pin=IC1-48
+Add Pin To Net: Unknown Pin: Pin R1-10
+Add Pin To Net: Unknown Pin: Pin R1-11
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R2-3
+Add Pin To Net: Unknown Pin: Pin R3-10
+Add Pin To Net: Unknown Pin: Pin R3-11
+Add Pin To Net: Unknown Pin: Pin R4-10
+Add Pin To Net: Unknown Pin: Pin R4-11
+Add Pin To Net: Unknown Pin: Pin R5-10
+Add Pin To Net: Unknown Pin: Pin R5-11
+Add Pin To Net: Unknown Pin: Pin R6-10
+Add Pin To Net: Unknown Pin: Pin R6-11
+Add Pin To Net: Unknown Pin: Pin R7-10
+Add Pin To Net: Unknown Pin: Pin R7-11
+Add Pin To Net: Unknown Pin: Pin R8-10
+Add Pin To Net: Unknown Pin: Pin R8-11
+Add Class Member: Failed to add class member : Component H1 ST-Link_V2
+Added Member To Class: ClassName=U_STM32 Member=Component IC1 STM32
+Add Class Member: Failed to add class member : Component R2 10k

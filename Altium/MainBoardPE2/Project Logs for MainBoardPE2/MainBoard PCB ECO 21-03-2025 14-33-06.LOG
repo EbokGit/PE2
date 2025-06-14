@@ -1,0 +1,53 @@
+Add Component: Footprint Not Found ST-LinkV2
+Add Component: Footprint Not Found STM32
+Add Component: Footprint Not Found potentiometer
+Add Pin To Net: Unknown Pin: Pin H1-1
+Add Pin To Net: Unknown Pin: Pin H1-2
+Add Pin To Net: Unknown Pin: Pin H1-3
+Add Pin To Net: Unknown Pin: Pin H1-4
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-7
+Add Pin To Net: Unknown Pin: Pin IC1-8
+Add Pin To Net: Unknown Pin: Pin IC1-9
+Add Pin To Net: Unknown Pin: Pin IC1-11
+Add Pin To Net: Unknown Pin: Pin IC1-12
+Add Pin To Net: Unknown Pin: Pin IC1-13
+Add Pin To Net: Unknown Pin: Pin IC1-14
+Add Pin To Net: Unknown Pin: Pin IC1-15
+Add Pin To Net: Unknown Pin: Pin IC1-16
+Add Pin To Net: Unknown Pin: Pin IC1-23
+Add Pin To Net: Unknown Pin: Pin IC1-24
+Add Pin To Net: Unknown Pin: Pin IC1-31
+Add Pin To Net: Unknown Pin: Pin IC1-32
+Add Pin To Net: Unknown Pin: Pin IC1-33
+Add Pin To Net: Unknown Pin: Pin IC1-34
+Add Pin To Net: Unknown Pin: Pin IC1-35
+Add Pin To Net: Unknown Pin: Pin IC1-36
+Add Pin To Net: Unknown Pin: Pin IC1-37
+Add Pin To Net: Unknown Pin: Pin IC1-40
+Add Pin To Net: Unknown Pin: Pin IC1-41
+Add Pin To Net: Unknown Pin: Pin IC1-42
+Add Pin To Net: Unknown Pin: Pin IC1-43
+Add Pin To Net: Unknown Pin: Pin IC1-44
+Add Pin To Net: Unknown Pin: Pin IC1-47
+Add Pin To Net: Unknown Pin: Pin IC1-48
+Add Pin To Net: Unknown Pin: Pin R1-10
+Add Pin To Net: Unknown Pin: Pin R1-11
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R2-3
+Add Pin To Net: Unknown Pin: Pin R3-10
+Add Pin To Net: Unknown Pin: Pin R3-11
+Add Pin To Net: Unknown Pin: Pin R4-10
+Add Pin To Net: Unknown Pin: Pin R4-11
+Add Pin To Net: Unknown Pin: Pin R5-10
+Add Pin To Net: Unknown Pin: Pin R5-11
+Add Pin To Net: Unknown Pin: Pin R6-10
+Add Pin To Net: Unknown Pin: Pin R6-11
+Add Pin To Net: Unknown Pin: Pin R7-10
+Add Pin To Net: Unknown Pin: Pin R7-11
+Add Pin To Net: Unknown Pin: Pin R8-10
+Add Pin To Net: Unknown Pin: Pin R8-11
+Add Class Member: Failed to add class member : Component H1 ST-Link_V2
+Add Class Member: Failed to add class member : Component IC1 STM32
+Add Class Member: Failed to add class member : Component R2 10k

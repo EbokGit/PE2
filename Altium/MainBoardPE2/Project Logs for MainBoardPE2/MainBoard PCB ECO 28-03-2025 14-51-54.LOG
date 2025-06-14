@@ -1,0 +1,4 @@
+Added Component: Designator=X1(crystal)
+Added Pin To Net: NetName=NetC13_2 Pin=X1-1
+Added Pin To Net: NetName=NetC14_2 Pin=X1-2
+Added Member To Class: ClassName=U_STM32 Member=Component X1 crystal

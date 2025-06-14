@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [MainBoardPE2.PrjPcb]
+   Generated File[Pick Place for MainBoard.txt]
+   Generated File[Pick Place for MainBoard.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 16:42:09 On 06/04/2025

@@ -1,0 +1,19 @@
+Add Component: Footprint Not Found potentiometer
+Added Pin To Net: NetName=NetIC3_10 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R2-3
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=NetIC1_44 Pin=R3-2
+Added Pin To Net: NetName=NetIC1_40 Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=NetIC1_41 Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=NetIC1_42 Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=NetIC1_43 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetIC2_7 Pin=R8-1
+Added Pin To Net: NetName=NetIC2_6 Pin=R8-2
+Add Class Member: Failed to add class member : Component R2 10k

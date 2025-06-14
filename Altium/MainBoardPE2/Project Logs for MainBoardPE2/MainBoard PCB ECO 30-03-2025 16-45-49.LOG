@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=J2(5v) NewDesignator=J2
+Change Component Designator: OldDesignator=J3(ws2812)(5v) NewDesignator=J3
+Change Component Designator: OldDesignator=S3 NewDesignator=S4
+Change Component Designator: OldDesignator=S4 NewDesignator=S3

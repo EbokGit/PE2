@@ -1,0 +1,8 @@
+Added Component: Designator=R9(0805)
+Added Component: Designator=R10(0805)
+Added Pin To Net: NetName=+3v3 Pin=R9-1
+Added Pin To Net: NetName=NetIC2_6 Pin=R9-2
+Added Pin To Net: NetName=NetIC2_7 Pin=R10-1
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component R9 10k
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component R10 10k

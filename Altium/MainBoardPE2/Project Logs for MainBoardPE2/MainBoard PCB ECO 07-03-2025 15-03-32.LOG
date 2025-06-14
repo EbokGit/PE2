@@ -1,0 +1,80 @@
+Add Component: Footprint Not Found capacitor-1206
+Add Component: Footprint Not Found capacitor-1206
+Added Component: Designator=IC1(QFP50P900X900X160-48N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "STM32F301C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/stm32f301c8t6/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/stm32f301c8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32F301C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-STM32F301C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F301C8T6?qs=DqCdCwOw4%2F52bYCbIDWtEg%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found screen_16x2
+Add Component: Footprint Not Found potentiometer
+Added Component: Designator=U1(LM1117DT-3.3)
+Added Pin To Net: NetName=+3v3 Pin=IC1-1
+Added Pin To Net: NetName=+3v3 Pin=IC1-9
+Added Pin To Net: NetName=+3v3 Pin=IC1-24
+Added Pin To Net: NetName=+3v3 Pin=IC1-36
+Added Pin To Net: NetName=+3v3 Pin=IC1-48
+Added Pin To Net: NetName=+3v3 Pin=U1-4
+Added Net: Name=+3v3
+Added Pin To Net: NetName=+5 Pin=U1-3
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=IC1-8
+Added Pin To Net: NetName=GND Pin=IC1-23
+Added Pin To Net: NetName=GND Pin=IC1-35
+Added Pin To Net: NetName=GND Pin=IC1-47
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetH1_1 Pin=IC1-7
+Added Net: Name=NetH1_1
+Added Pin To Net: NetName=NetH1_2 Pin=IC1-34
+Added Net: Name=NetH1_2
+Added Pin To Net: NetName=NetH1_4 Pin=IC1-37
+Added Net: Name=NetH1_4
+Added Pin To Net: NetName=NetIC1_11 Pin=IC1-11
+Added Net: Name=NetIC1_11
+Added Pin To Net: NetName=NetIC1_12 Pin=IC1-12
+Added Net: Name=NetIC1_12
+Added Pin To Net: NetName=NetIC1_13 Pin=IC1-13
+Added Net: Name=NetIC1_13
+Added Pin To Net: NetName=NetIC1_14 Pin=IC1-14
+Added Net: Name=NetIC1_14
+Added Pin To Net: NetName=NetIC1_15 Pin=IC1-15
+Added Net: Name=NetIC1_15
+Added Pin To Net: NetName=NetIC1_16 Pin=IC1-16
+Added Net: Name=NetIC1_16
+Added Pin To Net: NetName=NetIC1_31 Pin=IC1-31
+Added Net: Name=NetIC1_31
+Added Pin To Net: NetName=NetIC1_32 Pin=IC1-32
+Added Net: Name=NetIC1_32
+Added Pin To Net: NetName=NetIC1_33 Pin=IC1-33
+Added Net: Name=NetIC1_33
+Added Pin To Net: NetName=NetIC1_40 Pin=IC1-40
+Added Net: Name=NetIC1_40
+Added Pin To Net: NetName=NetIC1_41 Pin=IC1-41
+Added Net: Name=NetIC1_41
+Added Pin To Net: NetName=NetIC1_42 Pin=IC1-42
+Added Net: Name=NetIC1_42
+Added Pin To Net: NetName=NetIC1_43 Pin=IC1-43
+Added Net: Name=NetIC1_43
+Added Pin To Net: NetName=NetIC1_44 Pin=IC1-44
+Added Net: Name=NetIC1_44
+Added Net: Name=NetIC2_6
+Added Net: Name=NetIC2_7
+Added Net: Name=NetIC3_10
+Added Net: Name=NetIC3_12
+Added Net: Name=NetIC3_13
+Added Net: Name=NetIC3_14
+Added Net: Name=NetIC3_15
+Added Net: Name=NetIC3_16
+Added Net: Name=NetIC3_17
+Added Net: Name=Netlcd1_3
+Added Class: Name=MAX3485+TXB0108PWR
+Added Class: Name=others
+Added Class: Name=SCREEN+SWITCH
+Added Class: Name=STM32+ST-Link_V2
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2

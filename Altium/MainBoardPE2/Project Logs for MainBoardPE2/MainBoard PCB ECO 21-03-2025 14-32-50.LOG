@@ -1,0 +1,166 @@
+Added Component: Designator=C1(0805)
+Added Component: Designator=C2(0805)
+Added Component: Designator=C3(0805)
+Added Component: Designator=C4(0805)
+Added Component: Designator=C5(0805)
+Added Component: Designator=C6(0805)
+Added Component: Designator=C7(0805)
+Added Component: Designator=C8(0805)
+Added Component: Designator=C9(0805)
+Added Component: Designator=C10(0805)
+Added Component: Designator=C11(0805)
+Added Component: Designator=C12(0805)
+Added Component: Designator=D1(SCREEN)
+Add Component: Footprint Not Found ST-LinkV2
+Add Component: Footprint Not Found STM32
+Added Component: Designator=IC2(MAX3485)
+Added Component: Designator=IC3(TXB0108PWR)
+Added Component: Designator=R1(0805)
+Add Component: Footprint Not Found potentiometer
+Added Component: Designator=R3(0805)
+Added Component: Designator=R4(0805)
+Added Component: Designator=R5(0805)
+Added Component: Designator=R6(0805)
+Added Component: Designator=R7(0805)
+Added Component: Designator=R8(0805)
+Added Component: Designator=S1(SWITCh)
+Added Component: Designator=S2(SWITCh)
+Added Component: Designator=S3(SWITCh)
+Added Component: Designator=S4(SWITCh)
+Added Component: Designator=U1(LM1117DT-3.3)
+Added Pin To Net: NetName=+3v3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+3v3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=+3v3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=+3v3 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=+3v3 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=+3v3 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=+5 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3v3 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=+5 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=+5 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=+5 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=+3v3 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=+5 Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D1-5
+Added Pin To Net: NetName=GND Pin=D1-7
+Added Pin To Net: NetName=GND Pin=D1-8
+Added Pin To Net: NetName=GND Pin=D1-9
+Added Pin To Net: NetName=+5 Pin=D1-14
+Added Pin To Net: NetName=GND Pin=D1-15
+Added Pin To Net: NetName=GND Pin=D1-16
+Add Pin To Net: Unknown Pin: Pin H1-1
+Add Pin To Net: Unknown Pin: Pin H1-2
+Add Pin To Net: Unknown Pin: Pin H1-3
+Add Pin To Net: Unknown Pin: Pin H1-4
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-7
+Add Pin To Net: Unknown Pin: Pin IC1-8
+Add Pin To Net: Unknown Pin: Pin IC1-9
+Add Pin To Net: Unknown Pin: Pin IC1-11
+Add Pin To Net: Unknown Pin: Pin IC1-12
+Add Pin To Net: Unknown Pin: Pin IC1-13
+Add Pin To Net: Unknown Pin: Pin IC1-14
+Add Pin To Net: Unknown Pin: Pin IC1-15
+Add Pin To Net: Unknown Pin: Pin IC1-16
+Add Pin To Net: Unknown Pin: Pin IC1-23
+Add Pin To Net: Unknown Pin: Pin IC1-24
+Add Pin To Net: Unknown Pin: Pin IC1-31
+Add Pin To Net: Unknown Pin: Pin IC1-32
+Add Pin To Net: Unknown Pin: Pin IC1-33
+Add Pin To Net: Unknown Pin: Pin IC1-34
+Add Pin To Net: Unknown Pin: Pin IC1-35
+Add Pin To Net: Unknown Pin: Pin IC1-36
+Add Pin To Net: Unknown Pin: Pin IC1-37
+Add Pin To Net: Unknown Pin: Pin IC1-40
+Add Pin To Net: Unknown Pin: Pin IC1-41
+Add Pin To Net: Unknown Pin: Pin IC1-42
+Add Pin To Net: Unknown Pin: Pin IC1-43
+Add Pin To Net: Unknown Pin: Pin IC1-44
+Add Pin To Net: Unknown Pin: Pin IC1-47
+Add Pin To Net: Unknown Pin: Pin IC1-48
+Added Pin To Net: NetName=NetIC1_33 Pin=IC2-1
+Added Pin To Net: NetName=NetIC1_31 Pin=IC2-2
+Added Pin To Net: NetName=NetIC1_31 Pin=IC2-3
+Added Pin To Net: NetName=NetIC1_32 Pin=IC2-4
+Added Pin To Net: NetName=GND Pin=IC2-5
+Added Pin To Net: NetName=NetIC2_6 Pin=IC2-6
+Added Pin To Net: NetName=NetIC2_7 Pin=IC2-7
+Added Pin To Net: NetName=+3v3 Pin=IC2-8
+Added Pin To Net: NetName=+3v3 Pin=IC3-2
+Added Pin To Net: NetName=NetIC1_11 Pin=IC3-3
+Added Pin To Net: NetName=NetIC1_12 Pin=IC3-4
+Added Pin To Net: NetName=NetIC1_13 Pin=IC3-5
+Added Pin To Net: NetName=NetIC1_14 Pin=IC3-6
+Added Pin To Net: NetName=NetIC1_15 Pin=IC3-7
+Added Pin To Net: NetName=NetIC1_16 Pin=IC3-8
+Added Pin To Net: NetName=NetIC3_10 Pin=IC3-10
+Added Pin To Net: NetName=GND Pin=IC3-11
+Added Pin To Net: NetName=+5 Pin=IC3-19
+Add Pin To Net: Unknown Pin: Pin R1-10
+Add Pin To Net: Unknown Pin: Pin R1-11
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-3
+Add Pin To Net: Unknown Pin: Pin R3-10
+Add Pin To Net: Unknown Pin: Pin R3-11
+Add Pin To Net: Unknown Pin: Pin R4-10
+Add Pin To Net: Unknown Pin: Pin R4-11
+Add Pin To Net: Unknown Pin: Pin R5-10
+Add Pin To Net: Unknown Pin: Pin R5-11
+Add Pin To Net: Unknown Pin: Pin R6-10
+Add Pin To Net: Unknown Pin: Pin R6-11
+Add Pin To Net: Unknown Pin: Pin R7-10
+Add Pin To Net: Unknown Pin: Pin R7-11
+Add Pin To Net: Unknown Pin: Pin R8-10
+Add Pin To Net: Unknown Pin: Pin R8-11
+Added Pin To Net: NetName=+3v3 Pin=S1-1
+Added Pin To Net: NetName=NetIC1_40 Pin=S1-2
+Added Pin To Net: NetName=+3v3 Pin=S2-1
+Added Pin To Net: NetName=NetIC1_41 Pin=S2-2
+Added Pin To Net: NetName=+3v3 Pin=S3-1
+Added Pin To Net: NetName=NetIC1_43 Pin=S3-2
+Added Pin To Net: NetName=+3v3 Pin=S4-1
+Added Pin To Net: NetName=NetIC1_42 Pin=S4-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=+5 Pin=U1-3
+Added Pin To Net: NetName=+3v3 Pin=U1-4
+Added Pin To Net: NetName=NetD1_3 Pin=D1-3
+Added Net: Name=NetD1_3
+Added Pin To Net: NetName=NetD1_4 Pin=D1-4
+Added Pin To Net: NetName=NetD1_4 Pin=IC3-18
+Added Net: Name=NetD1_4
+Added Pin To Net: NetName=NetD1_6 Pin=D1-6
+Added Pin To Net: NetName=NetD1_6 Pin=IC3-17
+Added Net: Name=NetD1_6
+Added Pin To Net: NetName=NetD1_10 Pin=D1-10
+Added Pin To Net: NetName=NetD1_10 Pin=IC3-15
+Added Net: Name=NetD1_10
+Added Pin To Net: NetName=NetD1_11 Pin=D1-11
+Added Pin To Net: NetName=NetD1_11 Pin=IC3-16
+Added Net: Name=NetD1_11
+Added Pin To Net: NetName=NetD1_12 Pin=D1-12
+Added Pin To Net: NetName=NetD1_12 Pin=IC3-14
+Added Net: Name=NetD1_12
+Added Pin To Net: NetName=NetD1_13 Pin=D1-13
+Added Pin To Net: NetName=NetD1_13 Pin=IC3-13
+Added Net: Name=NetD1_13
+Added Class: Name=U_MAX3485+TXB0108PWR
+Added Class: Name=U_others
+Added Class: Name=U_SCREEN+SWITCH
+Added Class: Name=U_ST-Link_V2
+Added Class: Name=U_STM32
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2

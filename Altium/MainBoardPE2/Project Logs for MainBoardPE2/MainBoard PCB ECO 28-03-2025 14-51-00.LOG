@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=+5 Pin=PSU1-1
+Removed Pin From Net: NetName=GND Pin=PSU1-2
+Removed Member From Class: ClassName=U_others Member=PSU1
+Change Component Designator: OldDesignator=S5 NewDesignator=J1
+Added Component: Designator=J2(2pinpwd)
+Added Pin To Net: NetName=+5 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Member To Class: ClassName=U_others Member=Component J2 2pin_jumpers

@@ -1,0 +1,221 @@
+Added Component: Designator=C1(0805)
+Added Component: Designator=C2(0805)
+Added Component: Designator=C3(0805)
+Added Component: Designator=C4(0805)
+Added Component: Designator=C5(0805)
+Added Component: Designator=C6(0805)
+Added Component: Designator=C7(0805)
+Added Component: Designator=C8(0805)
+Added Component: Designator=C9(0805)
+Added Component: Designator=C10(0805)
+Added Component: Designator=C11(0805)
+Added Component: Designator=C12(0805)
+Added Component: Designator=C13(0805)
+Added Component: Designator=C14(0805)
+Added Component: Designator=C15(0805)
+Added Component: Designator=H1(4pin)
+Added Component: Designator=IC1(STM32)
+Added Component: Designator=IC2(MAX3485)
+Added Component: Designator=IC3(TXB0108PWR)
+Added Component: Designator=J1(2pin)
+Added Component: Designator=J2(2pinpwd)
+Added Component: Designator=J3(4pinpwd)
+Added Component: Designator=J4(2pin)
+Added Component: Designator=R1(0805)
+Added Component: Designator=R2(potentiometer)
+Added Component: Designator=R3(0805)
+Added Component: Designator=R4(0805)
+Added Component: Designator=R5(0805)
+Added Component: Designator=R6(0805)
+Added Component: Designator=R7(0805)
+Added Component: Designator=R8(0805)
+Added Component: Designator=S1(SWITCh)
+Added Component: Designator=S2(SWITCh)
+Added Component: Designator=S3(SWITCh)
+Added Component: Designator=S4(SWITCh)
+Added Component: Designator=SB1(SolderBrige)
+Added Component: Designator=SCR1(SCREEN)
+Added Component: Designator=U1(LM1117DT-3.3)
+Added Component: Designator=X1(crystal)
+Added Pin To Net: NetName=+3v3 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=+3v3 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=+3v3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=+3v3 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=+3v3 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=+3v3 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=+5 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=+3v3 Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=+5 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=+5 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=+5 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=+3v3 Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=+5 Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=NetH1_1 Pin=H1-1
+Added Pin To Net: NetName=NetH1_2 Pin=H1-2
+Added Pin To Net: NetName=GND Pin=H1-3
+Added Pin To Net: NetName=NetH1_4 Pin=H1-4
+Added Pin To Net: NetName=+3v3 Pin=IC1-1
+Added Pin To Net: NetName=NetC14_2 Pin=IC1-5
+Added Pin To Net: NetName=NetC13_2 Pin=IC1-6
+Added Pin To Net: NetName=NetH1_1 Pin=IC1-7
+Added Pin To Net: NetName=GND Pin=IC1-8
+Added Pin To Net: NetName=+3v3 Pin=IC1-9
+Added Pin To Net: NetName=NetIC1_11 Pin=IC1-11
+Added Pin To Net: NetName=NetIC1_12 Pin=IC1-12
+Added Pin To Net: NetName=NetIC1_13 Pin=IC1-13
+Added Pin To Net: NetName=NetIC1_14 Pin=IC1-14
+Added Pin To Net: NetName=NetIC1_15 Pin=IC1-15
+Added Pin To Net: NetName=NetIC1_16 Pin=IC1-16
+Added Pin To Net: NetName=GND Pin=IC1-23
+Added Pin To Net: NetName=+3v3 Pin=IC1-24
+Added Pin To Net: NetName=NetIC1_25 Pin=IC1-25
+Added Pin To Net: NetName=NetIC1_26 Pin=IC1-26
+Added Pin To Net: NetName=NetIC1_31 Pin=IC1-31
+Added Pin To Net: NetName=NetIC1_32 Pin=IC1-32
+Added Pin To Net: NetName=NetIC1_33 Pin=IC1-33
+Added Pin To Net: NetName=NetH1_2 Pin=IC1-34
+Added Pin To Net: NetName=GND Pin=IC1-35
+Added Pin To Net: NetName=+3v3 Pin=IC1-36
+Added Pin To Net: NetName=NetH1_4 Pin=IC1-37
+Added Pin To Net: NetName=NetIC1_40 Pin=IC1-40
+Added Pin To Net: NetName=NetIC1_41 Pin=IC1-41
+Added Pin To Net: NetName=NetIC1_42 Pin=IC1-42
+Added Pin To Net: NetName=NetIC1_43 Pin=IC1-43
+Added Pin To Net: NetName=NetIC1_44 Pin=IC1-44
+Added Pin To Net: NetName=GND Pin=IC1-47
+Added Pin To Net: NetName=+3v3 Pin=IC1-48
+Added Pin To Net: NetName=NetIC1_33 Pin=IC2-1
+Added Pin To Net: NetName=NetIC1_31 Pin=IC2-2
+Added Pin To Net: NetName=NetIC1_31 Pin=IC2-3
+Added Pin To Net: NetName=NetIC1_32 Pin=IC2-4
+Added Pin To Net: NetName=GND Pin=IC2-5
+Added Pin To Net: NetName=NetIC2_6 Pin=IC2-6
+Added Pin To Net: NetName=NetIC2_7 Pin=IC2-7
+Added Pin To Net: NetName=+3v3 Pin=IC2-8
+Added Pin To Net: NetName=+3v3 Pin=IC3-2
+Added Pin To Net: NetName=NetIC1_11 Pin=IC3-3
+Added Pin To Net: NetName=NetIC1_12 Pin=IC3-4
+Added Pin To Net: NetName=NetIC1_13 Pin=IC3-5
+Added Pin To Net: NetName=NetIC1_14 Pin=IC3-6
+Added Pin To Net: NetName=NetIC1_15 Pin=IC3-7
+Added Pin To Net: NetName=NetIC1_16 Pin=IC3-8
+Added Pin To Net: NetName=NetIC1_26 Pin=IC3-9
+Added Pin To Net: NetName=NetIC3_10 Pin=IC3-10
+Added Pin To Net: NetName=GND Pin=IC3-11
+Added Pin To Net: NetName=NetIC3_12 Pin=IC3-12
+Added Pin To Net: NetName=NetIC3_13 Pin=IC3-13
+Added Pin To Net: NetName=NetIC3_14 Pin=IC3-14
+Added Pin To Net: NetName=NetIC3_15 Pin=IC3-15
+Added Pin To Net: NetName=NetIC3_16 Pin=IC3-16
+Added Pin To Net: NetName=NetIC3_17 Pin=IC3-17
+Added Pin To Net: NetName=NetIC3_18 Pin=IC3-18
+Added Pin To Net: NetName=+5 Pin=IC3-19
+Added Pin To Net: NetName=NetIC1_25 Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=+5 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=+5 Pin=J3-1
+Added Pin To Net: NetName=NetIC3_12 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-4
+Added Pin To Net: NetName=NetIC2_6 Pin=J4-1
+Added Pin To Net: NetName=NetIC2_7 Pin=J4-2
+Added Pin To Net: NetName=NetIC3_10 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=+5 Pin=R2-3
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=NetIC1_44 Pin=R3-2
+Added Pin To Net: NetName=NetIC1_40 Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=NetIC1_41 Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=NetIC1_42 Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=NetIC1_43 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetIC2_7 Pin=R8-1
+Added Pin To Net: NetName=NetIC2_6 Pin=R8-2
+Added Pin To Net: NetName=+3v3 Pin=S1-1
+Added Pin To Net: NetName=NetIC1_40 Pin=S1-2
+Added Pin To Net: NetName=+3v3 Pin=S2-1
+Added Pin To Net: NetName=NetIC1_41 Pin=S2-2
+Added Pin To Net: NetName=+3v3 Pin=S3-1
+Added Pin To Net: NetName=NetIC1_43 Pin=S3-2
+Added Pin To Net: NetName=+3v3 Pin=S4-1
+Added Pin To Net: NetName=NetIC1_42 Pin=S4-2
+Added Pin To Net: NetName=+3v3 Pin=SB1-1
+Added Pin To Net: NetName=NetSB1_2 Pin=SB1-2
+Added Pin To Net: NetName=GND Pin=SCR1-1
+Added Pin To Net: NetName=+5 Pin=SCR1-2
+Added Pin To Net: NetName=NetR2_2 Pin=SCR1-3
+Added Pin To Net: NetName=NetIC3_18 Pin=SCR1-4
+Added Pin To Net: NetName=GND Pin=SCR1-5
+Added Pin To Net: NetName=NetIC3_17 Pin=SCR1-6
+Added Pin To Net: NetName=NetIC3_15 Pin=SCR1-10
+Added Pin To Net: NetName=NetIC3_16 Pin=SCR1-11
+Added Pin To Net: NetName=NetIC3_14 Pin=SCR1-12
+Added Pin To Net: NetName=NetIC3_13 Pin=SCR1-13
+Added Pin To Net: NetName=+5 Pin=SCR1-14
+Added Pin To Net: NetName=GND Pin=SCR1-15
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=+5 Pin=U1-3
+Added Pin To Net: NetName=NetSB1_2 Pin=U1-4
+Added Pin To Net: NetName=NetC13_2 Pin=X1-1
+Added Pin To Net: NetName=NetC14_2 Pin=X1-2
+Added Member To Class: ClassName=U_STM32 Member=Component C1 100n
+Added Member To Class: ClassName=U_STM32 Member=Component C2 100n
+Added Member To Class: ClassName=U_STM32 Member=Component C3 100n
+Added Member To Class: ClassName=U_STM32 Member=Component C4 100n
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component C5 100n
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component C6 100n
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component C7 100n
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component C8 100n
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component C9 100n
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component C10 100n
+Added Member To Class: ClassName=U_others Member=Component C11 10u
+Added Member To Class: ClassName=U_others Member=Component C12 10u
+Added Member To Class: ClassName=U_STM32 Member=Component C13 22pf
+Added Member To Class: ClassName=U_STM32 Member=Component C14 22pf
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component C15 100n
+Added Member To Class: ClassName=U_ST-Link_V2 Member=Component H1 ST-Link_V2
+Added Member To Class: ClassName=U_STM32 Member=Component IC1 STM32
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component IC2 MAX3485
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component IC3 TXB0108PWR
+Added Member To Class: ClassName=U_others Member=Component J1 SSR
+Added Member To Class: ClassName=U_others Member=Component J2 2pin_jumpers
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component J3 WS2812
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component J4 rs485
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component R1 10k
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component R2 10k
+Added Member To Class: ClassName=U_STM32 Member=Component R3 10k
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component R4 resistor
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component R5 10K
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component R6 10K
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component R7 10K
+Added Member To Class: ClassName=U_MAX3485+TXB0108PWR Member=Component R8 120
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component S1 SWITCH
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component S2 SWITCH
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component S3 SWITCH
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component S4 SWITCH
+Added Member To Class: ClassName=U_others Member=Component SB1 SolderBrige
+Added Member To Class: ClassName=U_SCREEN+SWITCH Member=Component SCR1 SCREEN
+Added Member To Class: ClassName=U_others Member=Component U1 LM1117DT-3.3
+Added Member To Class: ClassName=U_STM32 Member=Component X1 crystal
