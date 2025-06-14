@@ -29,7 +29,7 @@ The primary focus of this README is to explain the codebase and provide guidance
 * **Water Level Monitoring:** Reads data from a differential pressure sensor via RS485.
 * **User Interface:**
     * 4 push buttons for user input.
-    * WS2812B LED strip for visual feedback (e.g., water level indication, system status).
+    * WS2812B LED strip for visual feedback (e.g., water level indication).
     * **Alphanumeric screen for displaying text information.**
 * **Actuation:** Controls a solenoid valve.
 * **Microcontroller:** STM32F301C8T6TR.
