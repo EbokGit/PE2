@@ -36,8 +36,6 @@ The primary focus of this README is to explain the codebase and provide guidance
 
 ## Hardware Overview
 
-(Based on the provided PE2.pdf document and your additional information)
-
 * **Microcontroller:** STM32F301C8T6TR 
 * **Power Supply Units (PSU):** 24V 1A [cite: 10], 5V 10A [cite: 11], 3V3 
 * **Water Level Sensor:** Differential pressure meter with RS485 output 
