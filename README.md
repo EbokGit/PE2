@@ -26,36 +26,36 @@ The primary focus of this README is to explain the codebase and provide guidance
 
 ## Features
 
-* [cite_start]**Water Level Monitoring:** Reads data from a differential pressure sensor via RS485. 
+* **Water Level Monitoring:** Reads data from a differential pressure sensor via RS485. 
 * **User Interface:**
-    * [cite_start]4 push buttons for user input. 
-    * [cite_start]WS2812B LED strip for visual feedback (e.g., water level indication, system status). 
-    * [cite_start]**Alphanumeric screen for displaying text information.** 
-* [cite_start]**Actuation:** Controls a solenoid valve. 
-* [cite_start]**Microcontroller:** STM32F301C8T6TR. 
+    * 4 push buttons for user input. 
+    * WS2812B LED strip for visual feedback (e.g., water level indication, system status). 
+    * **Alphanumeric screen for displaying text information.** 
+* **Actuation:** Controls a solenoid valve. 
+* **Microcontroller:** STM32F301C8T6TR. 
 
 ## Hardware Overview
 
 (Based on the provided PE2.pdf document and your additional information)
 
-* [cite_start]**Microcontroller:** STM32F301C8T6TR 
-* [cite_start]**Power Supply Units (PSU):** 24V 1A [cite: 10][cite_start], 5V 10A [cite: 11][cite_start], 3V3 
-* [cite_start]**Water Level Sensor:** Differential pressure meter with RS485 output 
-* [cite_start]**RS485 Transceiver:** MAX3485 
-* [cite_start]**User Input:** 4 Push Buttons 
-* [cite_start]**Actuation:** Solid State Relay (SSR) controlling a 230V 50Hz solenoid valve 
+* **Microcontroller:** STM32F301C8T6TR 
+* **Power Supply Units (PSU):** 24V 1A [cite: 10], 5V 10A [cite: 11], 3V3 
+* **Water Level Sensor:** Differential pressure meter with RS485 output 
+* **RS485 Transceiver:** MAX3485 
+* **User Input:** 4 Push Buttons 
+* **Actuation:** Solid State Relay (SSR) controlling a 230V 50Hz solenoid valve 
 * **User Interface (Output):**
-    * [cite_start]TXB0108PWR (Level Shifter) 
-    * [cite_start]WS2812B LED Strip 
-    * [cite_start]**Alphanumeric Screen** 
+    * TXB0108PWR (Level Shifter) 
+    * WS2812B LED Strip 
+    * **Alphanumeric Screen** 
 
 ## Software Architecture
 
 The software is built using the STM32CubeIDE ecosystem, leveraging the Hardware Abstraction Layer (HAL) provided by STMicroelectronics. The core logic is implemented in C. Key aspects of the architecture include:
 
-* [cite_start]**Interrupt-driven Communication:** UART for RS485 [cite: 115][cite_start], and DMA for WS2812B control.
-* [cite_start]**Timer-based Events:** Timers are used for PWM generation (WS2812B).
-* [cite_start]**Modular Design:** Functions are separated logically for different peripherals (LEDs, RS485, Buttons, Screen, etc.). 
+* **Interrupt-driven Communication:** UART for RS485 [cite: 115], and DMA for WS2812B control.
+* **Timer-based Events:** Timers are used for PWM generation (WS2812B).
+* **Modular Design:** Functions are separated logically for different peripherals (LEDs, RS485, Buttons, Screen, etc.). 
 
 ## Setup and Compilation
 
