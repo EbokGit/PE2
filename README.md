@@ -1,4 +1,4 @@
-# PE2 - AquaLevel System - Embedded Firmware
+# PE2 - AquaLevel System
 
 This repository contains the embedded C firmware for the AquaLevel system, developed for the PE2 project at Thomas More. The system is designed to monitor water levels using a differential pressure sensor and control a solenoid valve, with user interaction via push buttons, a WS2812B LED strip, and an alphanumeric screen for visual feedback.
 
