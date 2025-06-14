@@ -1,4 +1,4 @@
-# pe2
+# PE2
 practice enterprice 2
 
 # AquaLevel System - Embedded Firmware
