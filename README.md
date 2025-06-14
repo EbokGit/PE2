@@ -18,10 +18,8 @@ The primary focus of this README is to explain the codebase and provide guidance
   - [RS485 Communication (Water Level Sensor)](#rs485-communication-water-level-sensor)
   - [User Input (Buttons)](#user-input-buttons)
   - [Solenoid Valve Control](#solenoid-valve-control)
-- [Troubleshooting / Lessons Learned](#troubleshooting--lessons-learned)
 - [Adaptability for Similar Projects](#adaptability-for-similar-projects)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
