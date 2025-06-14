@@ -1,0 +1,3 @@
+../Core/Src/max3485.c:24:10:calculateCRC	24	static
+../Core/Src/max3485.c:52:6:sendCommand	40	static
+../Core/Src/max3485.c:95:6:readResponse	56	dynamic

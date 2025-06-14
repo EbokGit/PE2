@@ -184,7 +184,7 @@ int main(void)
 	Set_LED(min_well, (brightness - 5), (brightness - 5), (brightness - 5));
 	Set_LED(max_well, (brightness - 5), (brightness - 5), (brightness - 5));
 
-	WS2812_Send();
+	WS2812_Send(&htim2);
 
   }
   /* USER CODE END 3 */

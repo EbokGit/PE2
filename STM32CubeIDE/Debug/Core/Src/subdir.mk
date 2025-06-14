@@ -6,30 +6,42 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Core/Src/16x2_screen.c \
+../Core/Src/LED.c \
+../Core/Src/SSR.c \
 ../Core/Src/main.c \
+../Core/Src/max3485.c \
 ../Core/Src/stm32f3xx_hal_msp.c \
 ../Core/Src/stm32f3xx_it.c \
 ../Core/Src/syscalls.c \
 ../Core/Src/sysmem.c \
-../Core/Src/system_stm32f3xx.c 
+../Core/Src/system_stm32f3xx.c \
+../Core/Src/ui.c 
 
 OBJS += \
 ./Core/Src/16x2_screen.o \
+./Core/Src/LED.o \
+./Core/Src/SSR.o \
 ./Core/Src/main.o \
+./Core/Src/max3485.o \
 ./Core/Src/stm32f3xx_hal_msp.o \
 ./Core/Src/stm32f3xx_it.o \
 ./Core/Src/syscalls.o \
 ./Core/Src/sysmem.o \
-./Core/Src/system_stm32f3xx.o 
+./Core/Src/system_stm32f3xx.o \
+./Core/Src/ui.o 
 
 C_DEPS += \
 ./Core/Src/16x2_screen.d \
+./Core/Src/LED.d \
+./Core/Src/SSR.d \
 ./Core/Src/main.d \
+./Core/Src/max3485.d \
 ./Core/Src/stm32f3xx_hal_msp.d \
 ./Core/Src/stm32f3xx_it.d \
 ./Core/Src/syscalls.d \
 ./Core/Src/sysmem.d \
-./Core/Src/system_stm32f3xx.d 
+./Core/Src/system_stm32f3xx.d \
+./Core/Src/ui.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -39,7 +51,7 @@ Core/Src/%.o Core/Src/%.su Core/Src/%.cyclo: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/16x2_screen.cyclo ./Core/Src/16x2_screen.d ./Core/Src/16x2_screen.o ./Core/Src/16x2_screen.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f3xx_hal_msp.cyclo ./Core/Src/stm32f3xx_hal_msp.d ./Core/Src/stm32f3xx_hal_msp.o ./Core/Src/stm32f3xx_hal_msp.su ./Core/Src/stm32f3xx_it.cyclo ./Core/Src/stm32f3xx_it.d ./Core/Src/stm32f3xx_it.o ./Core/Src/stm32f3xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f3xx.cyclo ./Core/Src/system_stm32f3xx.d ./Core/Src/system_stm32f3xx.o ./Core/Src/system_stm32f3xx.su
+	-$(RM) ./Core/Src/16x2_screen.cyclo ./Core/Src/16x2_screen.d ./Core/Src/16x2_screen.o ./Core/Src/16x2_screen.su ./Core/Src/LED.cyclo ./Core/Src/LED.d ./Core/Src/LED.o ./Core/Src/LED.su ./Core/Src/SSR.cyclo ./Core/Src/SSR.d ./Core/Src/SSR.o ./Core/Src/SSR.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/max3485.cyclo ./Core/Src/max3485.d ./Core/Src/max3485.o ./Core/Src/max3485.su ./Core/Src/stm32f3xx_hal_msp.cyclo ./Core/Src/stm32f3xx_hal_msp.d ./Core/Src/stm32f3xx_hal_msp.o ./Core/Src/stm32f3xx_hal_msp.su ./Core/Src/stm32f3xx_it.cyclo ./Core/Src/stm32f3xx_it.d ./Core/Src/stm32f3xx_it.o ./Core/Src/stm32f3xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f3xx.cyclo ./Core/Src/system_stm32f3xx.d ./Core/Src/system_stm32f3xx.o ./Core/Src/system_stm32f3xx.su ./Core/Src/ui.cyclo ./Core/Src/ui.d ./Core/Src/ui.o ./Core/Src/ui.su
 
 .PHONY: clean-Core-2f-Src
 
